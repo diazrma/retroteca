@@ -1,0 +1,10 @@
+node_modules
+.next
+.env*
+!.env.example
+.vercel
+video/frames
+video/out
+*.tsbuildinfo
+next-env.d.ts
+.data

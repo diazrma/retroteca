@@ -1,0 +1,26 @@
+{
+  "name": "retroteca",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "video": "node video/render.mjs"
+  },
+  "dependencies": {
+    "@upstash/redis": "^1.39.0",
+    "next": "15.5.27",
+    "next-auth": "5.0.0-beta.32",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "web-push": "^3.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/web-push": "^3.6.4",
+    "typescript": "^5"
+  }
+}
